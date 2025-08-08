@@ -1,0 +1,17 @@
+
+.button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.squares {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.square {
+    box-sizing: border-box;
+    border: 1px solid black; 
+    /* flex: 0 0 6.25%; */
+    aspect-ratio: 1;
+}
